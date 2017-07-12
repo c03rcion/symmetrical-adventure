@@ -1,0 +1,14 @@
+{% macro active(activePage='home') %}
+<div class="container">
+  <div id="brand">
+    <h1>Turnkey Cannabis Labs</h1>
+  </div>
+  <nav>
+    <ul>
+      <li class="{%if activePage == 'home' %} current {% endif %}"><a href="#" class="active">About</a></li>
+      <li><a href="{%if activePage == 'services' %} current {% endif %}">Services</a></li>
+      <li><a href="{%if activePage == 'contact' %} current {% endif %}">Contact</a></li>
+    </ul>
+  </nav>
+</div> <!--/.container-->
+{% endmacro %}

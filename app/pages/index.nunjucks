@@ -1,0 +1,39 @@
+{% extends "base.nunjucks" %}
+
+{% block content %}
+<section id="landing">
+  <div class="container">
+    <h1>Analytical Laboratory Solutions</h1>
+    <p>Curabitur ac tincidunt odio, id eleifend nibh. Duis varius ante non nulla pellentesque feugiat. Duis eget dapibus velit, non scelerisque velit. Praesent imperdiet ex in mauris accumsan lobortis. Proin venenatis velit ut elementum ultricies. Ut et posuere justo. Donec ultricies nisl mauris, vitae pretium ligula vulputate sit amet. Integer sapien nisi, vestibulum vitae dui quis, facilisis placerat massa.</p>
+  </div>
+</section> <!--/#landing-->
+<section id="subscribe">
+  <div class="container">
+    <h1>Get to Know Us!</h1>
+    <!-- <p>Subscribe to get industry news and updates!</p> -->
+    <form>
+      <input type="email" placeholder="Email Address">
+      <button class="button-1" type="submit">Subscribe</button>
+    <form>
+  </div>
+</section> <!--/#subscribe-->
+<section id="thumbs">
+  <div class="container">
+    <div class="thumbnail">
+      <img src="build/images/accredit.jpg">
+      <h3>Accredidation</h3>
+      <p>Curabitur ac tincidunt odio, id eleifend nibh. Duis varius ante non nulla pellentesque feugiat. Duis eget dapibus velit, non scelerisque velit. Praesent imperdiet ex in mauris accumsan lobortis. Proin venenatis velit ut elementum ultricies. Ut et posuere justo. Donec ultricies nisl mauris, vitae pretium ligula vulputate sit amet. Integer sapien nisi, vestibulum vitae dui quis, facilisis placerat massa.</p>
+    </div>
+    <div class="thumbnail">
+      <img src="build/images/researchers.jpg">
+      <h3>Staffing</h3>
+      <p>Curabitur ac tincidunt odio, id eleifend nibh. Duis varius ante non nulla pellentesque feugiat. Duis eget dapibus velit, non scelerisque velit. Praesent imperdiet ex in mauris accumsan lobortis. Proin venenatis velit ut elementum ultricies. Ut et posuere justo. Donec ultricies nisl mauris, vitae pretium ligula vulputate sit amet. Integer sapien nisi, vestibulum vitae dui quis, facilisis placerat massa.</p>
+    </div>
+    <div class="thumbnail">
+      <img src="build/images/beakers.jpg">
+      <h3>Equipment</h3>
+      <p>Curabitur ac tincidunt odio, id eleifend nibh. Duis varius ante non nulla pellentesque feugiat. Duis eget dapibus velit, non scelerisque velit. Praesent imperdiet ex in mauris accumsan lobortis. Proin venenatis velit ut elementum ultricies. Ut et posuere justo. Donec ultricies nisl mauris, vitae pretium ligula vulputate sit amet. Integer sapien nisi, vestibulum vitae dui quis, facilisis placerat massa.</p>
+    </div>
+  </div>
+</section> <!--/#thumbs-->
+{% endblock %}

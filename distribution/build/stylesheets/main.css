@@ -1,0 +1,134 @@
+/*global*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+header {
+  padding-top: 30px;
+  min-height: 70px;
+  width: 100%;
+  background-color: #000009;
+  border-bottom: #379634 3px solid;
+  color: #FFF; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* header */
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #FFF; }
+
+header #brand {
+  float: left; }
+
+header #brand h1 {
+  margin: 0;
+  letter-spacing: 3px; }
+
+header .highlight, header .current a {
+  color: #379634; }
+
+header a:hover {
+  font-weight: bold;
+  color: #EDF2F4; }
+
+/* navigation */
+nav {
+  float: right;
+  margin-top: 10px; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline;
+      padding: 0 20px 0 20px; }
+
+/* landing */
+#landing {
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../build/images/oilflask.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white; }
+
+#landing h1 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 55px; }
+
+#landing p {
+  font-size: 18px; }
+
+/* subscribe */
+#subscribe {
+  background: #000009;
+  color: #EDF2F4;
+  padding: 15px;
+  border-top: #379634 3px solid; }
+
+#subscribe h1 {
+  float: left;
+  margin-bottom: -10px; }
+
+#subscribe p {
+  float: left; }
+
+#subscribe form {
+  float: right;
+  margin-top: 20px;
+  padding-bottom: 40px; }
+
+#subscribe input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px; }
+
+/* thumbs */
+#thumbs {
+  margin-top: 20px; }
+
+#thumbs .thumbnail {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px; }
+
+#thumbs .thumbnail img {
+  width: 100%;
+  height: auto; }
+
+/* footer */
+footer {
+  background-color: #000009;
+  color: #EDF2F4;
+  text-align: center; }
+
+footer a {
+  color: #EDF2F4;
+  text-decoration: none; }
+
+footer ul {
+  list-style: none; }
+
+footer ul li {
+  display: inline-block;
+  margin: 10px; }
+
+/* classes */
+.button-1 {
+  height: 38px;
+  background-color: #379634;
+  color: #EDF2F4;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
