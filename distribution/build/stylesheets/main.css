@@ -24,11 +24,12 @@ header a {
   color: #EDF2F4; }
 
 header #brand {
-  float: left; }
+  float: left;
+  margin-top: -30px; }
 
-header #brand h1 {
-  margin: 0;
-  letter-spacing: 3px; }
+header #brand a {
+  font-size: 34px;
+  letter-spacing: 2px; }
 
 header .highlight, header .current a {
   color: #379634; }
