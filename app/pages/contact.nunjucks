@@ -2,13 +2,11 @@
 
 {% block header %}
 {% import "macros/nav-macro.nunjucks" as nav %}
-{{nav.active('services')}}
+{{nav.active('contact')}}
 {% endblock %}
 
 {% block content %}
-<section id="services">
-  <div class="container">
-    <h1>Services</h1>
-  </div>
-</section>
+<div class="container">
+  <h1>Contact</h1>
+</div>
 {% endblock %}
