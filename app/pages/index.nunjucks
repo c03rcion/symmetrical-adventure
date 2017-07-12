@@ -1,5 +1,10 @@
 {% extends "base.nunjucks" %}
 
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('home')}}
+{% endblock %}
+
 {% block content %}
 <section id="landing">
   <div class="container">

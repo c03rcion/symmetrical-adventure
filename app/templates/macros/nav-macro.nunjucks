@@ -5,9 +5,9 @@
   </div>
   <nav>
     <ul>
-      <li class="{%if activePage == 'home' %} current {% endif %}"><a href="#" class="active">About</a></li>
-      <li><a href="{%if activePage == 'services' %} current {% endif %}">Services</a></li>
-      <li><a href="{%if activePage == 'contact' %} current {% endif %}">Contact</a></li>
+      <li class="{%if activePage == 'home' %} current {% endif %}"><a href="index.html" class="active">About</a></li>
+      <li class="{%if activePage == 'services' %} current {% endif %}"><a href="services.html">Services</a></li>
+      <li class="{%if activePage == 'contact' %} current {% endif %}"><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </div> <!--/.container-->

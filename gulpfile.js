@@ -30,5 +30,6 @@ gulp.task('sass', function(){
 gulp.watch('app/src/stylesheets/*.scss', ['sass']);
 gulp.watch("app/pages/*.nunjucks", ['nunjucks']);
 gulp.watch("app/templates/*.nunjucks", ['nunjucks']);
+// gulp.watch("app/templates/macros/*.nunjucks", ['nunjucks']);
 gulp.watch("app/templates/partials/*.nunjucks", ['nunjucks']);
 gulp.watch('*.html').on('change', bs.reload);
