@@ -3,6 +3,7 @@ $white: #FFF;
 $anti-flash-white: #EDF2F4;
 $wageningen-green: #379634;
 $registration-black: #000009;
+$silversand: #BBC8CA;
 
 
  /*global*/
@@ -26,6 +27,30 @@ ul {
   padding: 0;
 }
 
+.dark {
+  padding: 15px;
+  background:$registration-black;
+  color: $anti-flash-white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-1 {
+  font-weight: bold;
+  height: 38px;
+  background-color: $wageningen-green;
+  color: $anti-flash-white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
 /* header */
 header a {
   text-decoration: none;
@@ -38,12 +63,9 @@ header #brand {
   margin-top: -30px;
 
 }
-
 header #brand a {
   font-size: 34px;
   letter-spacing: 2px;
-
-
 }
 
 header .highlight, header .current a {
@@ -56,7 +78,7 @@ header a:hover {
 }
 
 /* navigation */
-nav {
+header nav {
   float: right;
   margin-top: 10px;
   ul {
@@ -149,17 +171,82 @@ nav {
     }
   }
 
-  /* classes */
- .button-1 {
-    height: 38px;
-    background-color: $wageningen-green;
-    color: $anti-flash-white;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 0;
+  /* affilications */
+#affiliations {
+  min-height: 500px;
+  background-color: $silversand;
+}
+
+#affiliations h1 {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+  #affiliations div {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
   }
-  .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+
+/* main */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .request input, aside#sidebar .request textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+
+/* services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: grey solid 1px;
+  background: #e6e6e6;
+  margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #subscribe h1,
+  #subscribe form,
+  #thumbs .thumbnail,
+  article#main-col,
+  aside#sidebar{
+    float: none;
+    text-align: center;
+    width: 100%;
   }
+  header {
+    padding-bottom: 20px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  #landing h1 {
+    margin-top: 40px;
+  }
+  #subcribe button, .request button {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #subscribe form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

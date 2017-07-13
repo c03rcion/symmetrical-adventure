@@ -9,17 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
-  <header>
-    {% block header %}
-    {% endblock %}
-
-
-
-
-  </header>
-
-
-
+  <header>{% block header %}{% endblock %}</header>
   {% block content %}
   {% endblock %}
   <footer>{% include "partials/footer.nunjucks" %}</footer>

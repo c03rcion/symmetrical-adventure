@@ -6,9 +6,62 @@
 {% endblock %}
 
 {% block content %}
-<section id="services">
+<section id="main">
   <div class="container">
-    <h1>Services</h1>
+    <article id="main-col">
+      <h1 class="page-title">Services</h1>
+      <ul id="services">
+        <li>
+          <h3>Site Selection and Buildout</h3>
+          <p>We review your State and Landlord approved site and present a laboratory layout.</p>
+          <button class="button-1">More Info</button>
+        </li>
+        <li>
+          <h3>Staffing and Training</h3>
+          <p>We identify scientists and technicians with the skills and experience commensurate with the needs of the business and hire them with your approval.</p>
+          <button class="button-1">More Info</button>
+        </li>
+        <li>
+          <h3>Analytical Instrumentation</h3>
+          <p>We handle the acquisition of crucial analytical instuementation and equipment such as: HPLC, Water Activity Meter, Dessicator, Oven, and addition per required inventory list.</p>
+          <button class="button-1">More Info</button>
+        </li>
+        <li>
+          <h3>Quality Systems and Documentation</h3>
+          <p>Quality Management System implementation with plicy and procedures as well as training modules for ISO accrediation and updated for desired state's requirements.</p>
+          <button class="button-1">More Info</button>
+        </li>
+      </ul>
+      <div class="dark">
+        <p>
+          Proin ornare vel erat eget accumsan. Suspendisse mollis, neque lobortis finibus interdum, neque ex vestibulum ex, sed consectetur tortor ante ut eros. Cras id dolor imperdiet, consequat ex vel, convallis nisi. Aenean commodo commodo tellus, non tempus ipsum scelerisque lobortis. Morbi finibus tempus orci, euismod luctus nulla ultricies vel. Aliquam sit amet lacus sapien. Pellentesque vel nisl augue. Proin dictum nibh libero. Nunc nunc ipsum, condimentum sit amet sollicitudin vel, fringilla vitae justo. Morbi a viverra est.
+        </p>
+      </div>
+    </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+          <h3>Request Information</h3>
+          <form class="request">
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="Name">
+            </div>
+
+            <div>
+              <label>Email Address</label><br>
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label>Message</label><br>
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="button-1">Send</button>
+          </form>
+          </div>
+        </aside>
+
+
   </div>
 </section>
 {% endblock %}
