@@ -11,11 +11,12 @@
     <article id="main-col">
       <h1 class="page-title">About</h1>
       <p>
-        Proin ornare vel erat eget accumsan. Suspendisse mollis, neque lobortis finibus interdum, neque ex vestibulum ex, sed consectetur tortor ante ut eros. Cras id dolor imperdiet, consequat ex vel, convallis nisi. Aenean commodo commodo tellus, non tempus ipsum scelerisque lobortis. Morbi finibus tempus orci, euismod luctus nulla ultricies vel. Aliquam sit amet lacus sapien. Pellentesque vel nisl augue. Proin dictum nibh libero. Nunc nunc ipsum, condimentum sit amet sollicitudin vel, fringilla vitae justo. Morbi a viverra est.
+        Completing an accredited laboratory is a very time consuming endeavor requiring industry knowledge and experience that can take from 12 to over 18 months to implement. Additionally, since there is no standard methodology, everything must  be created and verified from scratch and mistakes can increase that timeline considerably. These factors can add up to well over $2.5 million dollars in expenses with a potential loss in time and revenue in establishing your facility as the prime provider of your target market.
       </p>
+      <div class="thumbnail">
       <div class="dark">
         <p>
-          Proin ornare vel erat eget accumsan. Suspendisse mollis, neque lobortis finibus interdum, neque ex vestibulum ex, sed consectetur tortor ante ut eros. Cras id dolor imperdiet, consequat ex vel, convallis nisi. Aenean commodo commodo tellus, non tempus ipsum scelerisque lobortis. Morbi finibus tempus orci, euismod luctus nulla ultricies vel. Aliquam sit amet lacus sapien. Pellentesque vel nisl augue. Proin dictum nibh libero. Nunc nunc ipsum, condimentum sit amet sollicitudin vel, fringilla vitae justo. Morbi a viverra est.
+          At TCL Consulting we use our experience in the cannabis industry to develop your cannabis testing laboratory in a timely manner. We will ensure your facility meets International Organization for Standardization (ISO) 17025, NELAP TNI (National Environmental Laboratory Accrediation Program), and NEFAP (National Environmental Field Activities Program) accrediation standards and field sampling protocols.
         </p>
       </div>
     </article>
@@ -25,8 +26,12 @@
       <div class="dark">
         <h3>What We Do</h3>
         <p>
-          Proin ornare vel erat eget accumsan. Suspendisse mollis, neque lobortis finibus interdum, neque ex vestibulum ex, sed consectetur tortor ante ut eros. Cras id dolor imperdiet, consequat ex vel, convallis nisi. Aenean commodo commodo tellus, non tempus ipsum scelerisque lobortis. Morbi finibus tempus orci, euismod luctus nulla ultricies vel. Aliquam sit amet lacus sapien. Pellentesque vel nisl augue. Proin dictum nibh libero. Nunc nunc ipsum, condimentum sit amet sollicitudin vel, fringilla vitae justo. Morbi a viverra est.
+          Our services are divided into two phases:
         </p>
+        <ul>
+          <li>Pre-accredited</li>
+          <li>Post-accredited</li>
+        </ul>
       </div>
     </aside>
     </div>

@@ -8,8 +8,8 @@
 {% block content %}
 <section id="landing">
   <div class="container">
-    <h1>Analytical Laboratory Solutions</h1>
-    <p>Curabitur ac tincidunt odio, id eleifend nibh. Duis varius ante non nulla pellentesque feugiat. Duis eget dapibus velit, non scelerisque velit. Praesent imperdiet ex in mauris accumsan lobortis. Proin venenatis velit ut elementum ultricies. Ut et posuere justo. Donec ultricies nisl mauris, vitae pretium ligula vulputate sit amet. Integer sapien nisi, vestibulum vitae dui quis, facilisis placerat massa.</p>
+    <h1>Turnkey Cannabis Laboratories</h1>
+    <p>setting up your accredited laboratory for testing cannabis</p>
   </div>
 </section> <!--/#landing-->
 <section id="subscribe">
@@ -24,6 +24,8 @@
 </section> <!--/#subscribe-->
 <section id="thumbs">
   <div class="container">
+    <h1>Accredited Laboratories for Testing Cannabis</h1>
+    <p>We get you up and running fast for quick entry into the cannabis industry</p>
     <div class="thumbnail">
       <img src="build/images/accredit.jpg">
       <h3>Accredidation</h3>

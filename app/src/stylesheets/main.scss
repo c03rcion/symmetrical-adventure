@@ -137,6 +137,10 @@ header nav {
   }
 
   /* thumbs */
+  #thumbs h1, p {
+    text-align: center;
+  }
+
   #thumbs {
     margin-top: 20px;
   }
@@ -201,10 +205,17 @@ aside#sidebar {
   width: 30%;
   margin-top: 10px;
 }
+aside#sidebar p {
+  text-align: left;
+}
 
 aside#sidebar .request input, aside#sidebar .request textarea{
   width: 90%;
   padding: 5px;
+}
+aside#sidebar ul {
+  list-style: none;
+  float: none;
 }
 
 
